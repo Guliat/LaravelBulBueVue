@@ -15,16 +15,24 @@ Clean Installed Laravel 5.5 with Authentication AND:
 
 <strong>This release is with styled Auth and Navbar. If you want clean version download <a href="https://github.com/Guliat/LaravelBulBueVue/releases/tag/v1.0">Version 1</a>.</strong>
 
-Installation (If you never use Laravel and Composer):
--
--
--
--
--
--
+Installation
+- IMPORTANT ! You must have installed all Laravel dependencies on web server
+- Lets start
+- Open terminal and go to your webserver folder (where your projects are)
+- Type git clone https://github.com/Guliat/LaravelBulBueVue.git
+- Go to folder LaravelBulBueVue
+- Type composer update
+- Duplicate file .env.example and rename it .env
+- Type php artisan key:generate
+- Now you must fill .env file with your database config. This is important for Authentication.
+- DB_DATABASE= YOUR DATABASE NAME
+- DB_USERNAME= YOUR USERNAME (root)
+- DB_PASSWORD= YOUR PASSWORD (blank)
+- Now in terminal type php artisan migrate (In windows its possible to have any errors)
+- Done !
 
 
 <a href="https://github.com/Guliat/LaravelBulBueVue/releases/tag/v1.0">Version 1</a> - Auth and Nav - NO styled. <br>
 <a href="https://github.com/Guliat/LaravelBulBueVue/releases/tag/v2.0">Version 2</a> - Auth and Nav - BULMA styled.
 
-Everything i know is from this extremely good teacher >> https://www.youtube.com/channel/UC6kwT7-jjZHHF1s7vCfg2CA
+Everything I know is from this extremely good teacher >> https://www.youtube.com/channel/UC6kwT7-jjZHHF1s7vCfg2CA
