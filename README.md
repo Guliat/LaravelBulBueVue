@@ -2,7 +2,7 @@
 
 Laravel + Bulma + Buefy + VueJS + etc.
 
-Clean Installed Laravel 5.5 with Auth AND:
+Clean Installed Laravel 5.5.18 with Auth AND:
 - Bulma 0.6.0
 - Buefy 0.5.4
 - VueJS 2.1.10
