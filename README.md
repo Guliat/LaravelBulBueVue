@@ -23,5 +23,8 @@ Installation (If you never use Laravel and Composer):
 -
 -
 
+
 <a href="https://github.com/Guliat/LaravelBulBueVue/releases/tag/v1.0">Version 1</a> - Auth and Nav - NO styled. <br>
-<a href="">Version 2</a> - Auth and Nav - BULMA styled.
+<a href="https://github.com/Guliat/LaravelBulBueVue/releases/tag/v2.0">Version 2</a> - Auth and Nav - BULMA styled.
+
+Everything i know is from this extremely good teacher >> https://www.youtube.com/channel/UC6kwT7-jjZHHF1s7vCfg2CA
