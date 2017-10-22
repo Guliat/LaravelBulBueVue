@@ -29,6 +29,10 @@ Installation
 - DB_USERNAME= YOUR USERNAME (root)
 - DB_PASSWORD= YOUR PASSWORD (blank)
 - Now in terminal type php artisan migrate (In windows its possible to have any errors)
+- Finnaly you must change ownership and permissions.
+- If you use linux type chown -R :www-data /var/www/LaravelBulBueVue/ (example)
+- type chmod -R 755 storage
+- type chmod -R 755 bootstrap/cache
 - Done !
 
 
