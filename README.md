@@ -13,6 +13,6 @@ Clean Installed Laravel 5.5.18 with Auth AND:
 - Font Awesome 4.7.0
 - Cross Env 5.0.1
 
-Version 1 - Auth NO styled.
+Version 1 - Auth NO styled. <br>
 Version 2 - Auth BULMA styled.
 
