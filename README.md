@@ -21,7 +21,7 @@ Installation
 - Open terminal and go to your webserver folder (where your projects are)
 - Type git clone https://github.com/Guliat/LaravelBulBueVue.git
 - Go to folder LaravelBulBueVue
-- Type composer update
+- Type composer install --no-dev
 - Duplicate file .env.example and rename it .env
 - Type php artisan key:generate
 - Now you must fill .env file with your database config. This is important for Authentication.
